@@ -20,25 +20,23 @@ export default function About() {
         id="sobremi"
     >
       <SectionHeading>Sobre mí</SectionHeading>
-      <p className="mb-3">
-        Desde siempre me han apasionado las nuevas tecnologías, por ello, decidí apuntatme a un {" "}
-        <span className="font-medium">Bootcamp</span>, para poder adquirir 
-        experiencia y conocimientos través de distintas tecnologías. Después, me apunté al grado superior de{" "}
-        <span className="font-medium">Desarrollo de Aplicaciones Web</span>.{" "} para seguir ampliando mis conocimientos.
-        En el grado tuve la suerte de poder conocer el framework de 
-        <span className="italic">React</span>, el cual me gustó mucho y quise realizar 
-        proyectos propios y cursos para poder entenderlo mejor.
-        Actualmente estoy desarrollando proyectos con:{" "}
-        <span className="font-medium">
-          React, TypeScript, Next.js y Tailwind
-        </span>. Además, estoy aprendiendo otras tecnologías como Express, MongoDB y Prisma para poder integrarlo a mis proyectos.
-        Me gusta aprender nuevas tecnologías y estar al día para desarrollar todos mis proyectos de la mejor forma posible.{" "}
-        Actualmente busco un puesto de <span className="font-medium">full-stack developer.</span>
-      </p>
-      <p>
-        <span className="italic">Cuando no estoy programando</span>, me gusta mucho leer, sobre todo los libros de fantasía,
-        ver series, películas de terror y  salir con mis amigos. Además, estoy aprendiendo inglés para poder obtener el título del B2.
-      </p>
+      <div className="flex flex-col items-center p-4">
+		<p className="text-center mb-4">
+			Desde siempre, me han apasionado las nuevas tecnologías, por lo que decidí inscribirme en un 
+			<span className="font-bold"> Bootcamp</span>, para poder adquirir 
+			experiencia y conocimientos a través de distintas tecnologías. Después, me matriculé en el grado superior de
+			<span className="font-bold"> Desarrollo de Aplicaciones Web</span>. para seguir desarrollando mis habilidades.
+			Durante grado, tuve la suerte de poder conocer el framework de 
+			<span className="italic font-bold"> React</span>, el cual me gustó mucho y me motivó a realizar 
+			proyectos propios y cursos para poder comprenderlo mejor.
+			<p>Actualmente estoy desarrollando proyectos con: <span className="font-bold">React, TypeScript, Next.js y Tailwind
+			</span>. También, estoy aprendiendo otras tecnologías como Express, MongoDB y Prisma para integrarlas en mis proyectos.
+			Me gusta mantenerme actualizada y aprender nuevas herramientas para desarrollar mis proyectos de la mejor manera posible.
+			Actualmente busco un puesto de <span className="font-bold">full-stack developer.</span></p>
+			<span className="italic">Cuando no estoy programando</span>, disfruto leer, especialmente libros de fantasía, ver series y películas de terror, y salir con mis amigos. Además, estoy estudiando inglés con el objetivo de obtener el título B2.
+		</p>
+      </div>
+
     </motion.section>
   );
 }
