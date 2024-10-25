@@ -30,8 +30,8 @@ export default function About() {
           <span className="italic font-bold"> React</span>, el cual me gustó mucho y me motivó a realizar cursos y
           proyectos propios.
           <p>Actualmente, estoy desarrollando proyectos con: <span className="font-bold">React, TypeScript, Next.js y Tailwind
-          </span>. También he realizado cursos de <span className="font-bold">Java, Angular, Express, MongoDB o Prism</span>
-          Con frecuencia investigo para mantenerme actualizada y aprender nuevas herramientas para desarrollar mis proyectos de la mejor manera posible.</p>
+          </span>. También he realizado cursos de <span className="font-bold">Java, Angular, Express, MongoDB o Prisma</span>.
+           Con frecuencia investigo para mantenerme actualizada y aprender nuevas herramientas para desarrollar mis proyectos de la mejor manera posible.</p>
         </p>
       </div>
 
