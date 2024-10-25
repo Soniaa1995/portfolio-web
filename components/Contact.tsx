@@ -38,8 +38,7 @@ export default function Contact() {
     >
         <SectionHeading>Contácta conmigo</SectionHeading>
 
-        <p className="text-gray-700 -mt-6">Contácta conmigo aquí  <a className="underline" href="mailto:soniamp95@gmail.com">soniamp95@gmail.com</a>
-        o rellena este formulario</p>
+        <p className="text-gray-700 -mt-6">Contacta conmigo aquí  <a className="underline" href="mailto:soniamp95@gmail.com">soniamp95@gmail.com</a> o rellena este formulario</p>
 
         <form 
             className="mt-10 flex flex-col"
